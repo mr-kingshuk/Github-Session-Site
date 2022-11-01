@@ -10,10 +10,11 @@ function Table(props) {
                     <th>Name</th>
                     <th>Roll No.</th>
                 </tr>
-                {props.StudentList.map((entry) => <Entry
-                    srno={entry.srno}
-                    name={entry.name}
-                    rollno={entry.rollno} />)
+                {props.StudentList.map((entry) => 
+                    <Entry
+                        srno={entry.srno}
+                        name={entry.name}
+                        rollno={entry.rollno} />)
                 }
             </table>
         </div>
