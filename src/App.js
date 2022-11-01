@@ -1,9 +1,12 @@
-import styles from './App.module.css';
+import './index.css';
+import Header from './Components/Header';
+import Table from './Components/Table';
 
 function App() {
   return (
-    <div className={styles.outer}>
-      Hello World!!
+    <div>
+      <Header></Header>
+      <Table></Table>
     </div>
   );
 }

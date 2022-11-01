@@ -1,3 +1,5 @@
+This repository contains website which was built for the GDSC intra-club event of "Git/Github Introduction Session", to demonstrate how to contribute in an open source project. This website contains the list of all those who had attended the session, which they added themselves after forking this repository.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
